@@ -1,0 +1,1 @@
+Tudeng 2 kirjutas midagi.
