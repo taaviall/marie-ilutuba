@@ -1,0 +1,124 @@
+/* Marie ilutuba */
+
+body {
+  margin: 0;
+  background-color: #f3ece5;
+  background-image: url(./pildid/10790701.jpg);
+  color: #4a3b3f;
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+}
+
+.leht {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 64px;
+  margin: 0 0 10px 0;
+}
+
+/* nupud */
+.nupp {
+  display: inline-block;
+  padding: 8px 18px;
+  margin-right: 10px;
+  border: 2px solid #b46a7c;
+  color: #4a3b3f;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.nupp:hover {
+  background-color: #b46a7c;
+  color: white;
+}
+
+/* kaks veergu */
+.veerud {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.vasak, .parem {
+  flex: 1;
+}
+
+.pilt {
+  display: block;
+  width: 100%;
+  border: 2px solid #4a3b3f;
+}
+
+/* sotsiaalmeedia ikoonid */
+.pais {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sotsiaalmeedia {
+  width: 50%;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.sotsiaalmeedia a {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  margin: 0 8px;
+  border: 2px solid #4a3b3f;
+  border-radius: 50%;
+  color: #4a3b3f;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.sotsiaalmeedia a:hover {
+  background-color: #b46a7c;
+  border-color: #b46a7c;
+  color: white;
+}
+
+/* aadress ja ajad */
+.aadress {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.aadress h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  margin: 0 0 5px 0;
+}
+
+.aadress p {
+  margin: 3px 0;
+}
+
+/* hinnakiri */
+table {
+  border-collapse: collapse;
+  width: 600px;
+  margin-top: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+th, td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #c9aeb5;
+}
+
+th {
+  border-bottom: 2px solid #b46a7c;
+}
